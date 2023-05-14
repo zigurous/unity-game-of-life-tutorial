@@ -6,4 +6,4 @@
 - **Topics**: Cellular Automata, Tilemaps, Scriptable Objects
 - **Version**: Unity 2021.3 (LTS)
 - [**Download**](https://github.com/zigurous/unity-game-of-life-tutorial/archive/refs/heads/main.zip)
-- [**Watch Video**](https://www.youtube.com/c/zigurous)
+- [**Watch Video**](https://youtu.be/MB43Sd0xJUE)
