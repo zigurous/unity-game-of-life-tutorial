@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4d307a2ffc4264491894938ea09ba6, type: 3}
+  m_Name: Justyna
+  m_EditorClassIdentifier:
+  cells:
+  - {x: 11, y: 0}
+  - {x: 12, y: 0}
+  - {x: 13, y: 0}
+  - {x: 19, y: 1}
+  - {x: 20, y: 1}
+  - {x: 21, y: 1}
+  - {x: 18, y: 9}
+  - {x: 1, y: 10}
+  - {x: 18, y: 10}
+  - {x: 0, y: 11}
+  - {x: 1, y: 11}
+  - {x: 18, y: 11}
+  - {x: 17, y: 13}
+  - {x: 20, y: 13}
+  - {x: 17, y: 14}
+  - {x: 18, y: 14}
+  - {x: 19, y: 14}
+  - {x: 16, y: 15}
+  - {x: 19, y: 15}
+  - {x: 17, y: 16}
