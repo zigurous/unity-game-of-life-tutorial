@@ -1,9 +1,9 @@
-# Project Title
+# Game of Life
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh elit, iaculis id condimentum vitae, efficitur nec lorem. Nam convallis ligula vitae velit porta interdum. Donec euismod sem ligula, aliquet lacinia eros mollis molestie. Maecenas et enim mollis lacus ultrices consequat. Quisque vehicula id neque sit amet placerat. Etiam posuere vel ipsum vel tincidunt. Nulla et efficitur urna. Phasellus varius gravida velit non commodo. Vivamus sagittis commodo nibh vitae posuere.
+> Conway's Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
 
-- **Difficulty**:
-- **Topics**:
-- **Version**:
-- [**Download**](https://github.com/zigurous/unity-tutorial-template/archive/refs/heads/main.zip)
+- **Difficulty**: Intermediate
+- **Topics**: Cellular Automata, Tilemaps, Hash Sets
+- **Version**: Unity 2021.3 (LTS)
+- [**Download**](https://github.com/zigurous/unity-game-of-life-tutorial/archive/refs/heads/main.zip)
 - [**Watch Video**](https://www.youtube.com/c/zigurous)
