@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+[DefaultExecutionOrder(-1)]
 public class GameBoard : MonoBehaviour
 {
     [SerializeField] private Tilemap currentState;
@@ -12,18 +13,12 @@ public class GameBoard : MonoBehaviour
     [SerializeField] private Pattern pattern;
     [SerializeField] private float updateInterval = 0.05f;
 
-    private HashSet<Vector3Int> aliveCells;
-    private HashSet<Vector3Int> cellsToCheck;
+    private readonly HashSet<Vector3Int> aliveCells = new();
+    private readonly HashSet<Vector3Int> cellsToCheck = new();
 
     public int population { get; private set; }
     public int iterations { get; private set; }
     public float time { get; private set; }
-
-    private void Awake()
-    {
-        aliveCells = new HashSet<Vector3Int>();
-        cellsToCheck = new HashSet<Vector3Int>();
-    }
 
     private void Start()
     {
@@ -83,7 +78,7 @@ public class GameBoard : MonoBehaviour
     {
         cellsToCheck.Clear();
 
-        // gather cells to check
+        // Gather cells to check
         foreach (Vector3Int cell in aliveCells)
         {
             for (int x = -1; x <= 1; x++)
@@ -95,7 +90,7 @@ public class GameBoard : MonoBehaviour
             }
         }
 
-        // transition cells to the next state
+        // Transition cells to the next state
         foreach (Vector3Int cell in cellsToCheck)
         {
             int neighbors = CountNeighbors(cell);
@@ -117,7 +112,7 @@ public class GameBoard : MonoBehaviour
             }
         }
 
-        // swap current state with next state
+        // Swap current state with next state
         Tilemap temp = currentState;
         currentState = nextState;
         nextState = temp;
